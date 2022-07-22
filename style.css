@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&family=Libre+Franklin:ital,wght@1,200&family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.pad {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+body{
+    background-color: rgb(218, 247, 223);
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+   padding: 1.0% 2% 1.0% 2%;
+    background-color: rgb(65, 153, 65);
+    margin-top: auto;
+    max-height: 10vh;
+}
+.heading{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 20px;
+}
+
+button{
+    padding:5px 10px;
+    color:rgb(4, 56, 14);
+    background: var(--main-bg-color);
+    border:2px solid black;
+    border-radius: 7px;
+    cursor:pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pxS;
+
+}
+button:hover{
+  background-color: green;
+  color: white;
+}
+.location{
+  padding-left: 13%;
+}
+  .location input{
+    width:400px;
+    height:25px;
+    border-radius: 5px;
+    margin:0px 16px 0px 56px;
+    padding-left: 0 12pxś
+}
+input::placeholder {
+    font-size: 0.9rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: gray;
+}
+.logo img{
+    height:35px;
+    width:35px;
+}
+.icons a {
+    color: rgb(4, 56, 14);
+  }
+  .icons a:hover{
+    color: white;
+  }
+  .login{
+    padding-left: 18%;
+  }
+  .icons
+  {
+    padding-left: 10px;
+  }
+  .main {
+    display: flex;
+     align-items: center;
+    justify-content: right;
+    min-height: 80vh;
+    background:url(images/farm4.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .content{
+      padding-top: 10x;
+      max-width:40rem;
+      padding-bottom: 10px;
+  }
+
+  .content span {
+    font-size: 2.3rem;
+    padding: 1rem 0;
+    line-height: 1.5;
+    color: rgb(12, 46, 5);
+    font-weight:600;
+    font-family:'Open Sans', sans-serif;
+    padding-top: 10px;
+  }
+  
+  .content p{
+    font-size: 2.3rem;
+    color: rgb(12, 46, 5);
+    padding: 1rem 0;
+    line-height: 1.5;
+    font-weight:600;
+    font-family:'Open Sans', sans-serif;
+   
+  }
+  .container h3{
+    font-size: 2.0rem;
+    color: rgb(12, 46, 5);
+    padding: 1rem 0;
+    line-height: 1.5;
+    font-weight:600;
+    font-family:'Libre Franklin', sans-serif;
+    display:flex;
+    justify-content: center;
+      border-bottom: 2px solid green;
+   
+  }
+  .container span{
+      color: brown;
+   
+  }
+  .buto{
+    padding-left: 40%;
+  }
+ .content button{
+  padding:10px 20px;
+  color:rgb(232, 222, 240);
+  background: rgb(33, 171, 66);
+  border:2px solid black;
+  border-radius: 20px;
+  cursor:pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ .content button:hover{
+background-color: rgb(176, 247, 176);
+color: black;
+
+ }
+  .card{
+    max-width:91vw;
+    margin: auto;
+    padding-bottom: 40px;
+    border-bottom: 2px solid green;
+    display:block;
+}
+.products img{
+  height:230px;
+  width: 230px;
+  padding:10px;
+  border: green;
+  border-radius: 10%;
+}
+
+.products:hover{
+  transform:scale(1.08);
+ 
+  cursor:pointer;
+}
+.f{
+  display: flex
+}
+.heads{
+  font-size: 1.8rem;
+  color: rgb(12, 46, 5);
+  
+  line-height: 1.5;
+  font-weight:600;
+  font-family:'Libre Franklin', sans-serif;
+  text-decoration: underline;
+}
+.products p{
+  padding-left: 3.8rem;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.7rem;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: #0f0f0f;
+  font-family: 'Lato', sans-serif;
+}
+.products a{
+  padding-left: 50px;
+ 
+}
+.products p{
+  padding-bottom: 20px;
+}
+.show-cart{
+width:18rem;
+padding:2 rem,1.5 rem;
+transform:rotatteY(-360deg)
+}
+.cart {
+  position: absolute;
+  min-height: 10rem;
+  background: var(--mainWhite);
+  top: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.5);
+  width: 0;
+  overflow: hidden;
+}
